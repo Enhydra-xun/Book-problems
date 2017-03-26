@@ -2,7 +2,7 @@ def foo(*args,**kwargs):
     print 'args=',kwargs
     print'-------------------------------------'
 
-if __name__ == '_main_':
+if __name__ == '__main__':
     foo(1,2,3,4)
     foo(a=1,b=2,c=3)
     foo(1,2,3,4,a=1,b=2,c=3)
